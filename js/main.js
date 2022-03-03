@@ -1,4 +1,3 @@
-
 const videoCardContainer = $(".container__list-videos");
 
 let api_key = "AIzaSyC-VcVmaw45Ah4_pWG6lTTgTcUtuH4rIBk";
@@ -106,5 +105,5 @@ $(document).on("click", ".video-zoom", function () {
     videoData.contentInfo = $(this).find(".content__info span").html();
 
     localStorage.setItem("videoData", JSON.stringify(videoData));
-    window.location.href = "./detail-index.html";
+    window.location.href = "./detail/index.html";
 });
