@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Youtube</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./../css/base.css" />
+        <link rel="stylesheet" href="./../css/style.css" />
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="navbar__start d-flex justify-content-center">
+                <div class="start__toggle-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="start__logo">
+                    <a href="./../index.html"><img class="ml-4" src="./../img/logo.png" alt="Logo" /> </a>
+                </div>
+            </div>
+
+            <div class="navbar__center d-flex justify-content-center">
+                <input class="center__search-input" type="text" placeholder="Search" />
+
+                <button class="center__search-btn">
+                    <i class="fa-solid fa-search"></i>
+                </button>
+
+                <button class="center__micro-btn">
+                    <i class="fa-solid fa-microphone"></i>
+                </button>
+            </div>
+
+            <div class="navbar__end d-flex justify-content-center">
+                <div class="end__user-option">
+                    <i class="fa-solid fa-table-cells"></i>
+                </div>
+                <div class="end__user-option mr-3">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+                <a class="end__user-login nav-link" href="#">
+                    <i class="fa-solid fa-user"></i>
+                    SIGN IN
+                </a>
+            </div>
+        </div>
+
+        <div class="detail-video">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/FaGsAheVZKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="video-content row">
+            <div class="content__info col-8 pl-5 mt-4">
+                <span>Trải Nghiệm Và So Sánh 2 TÒA THÁP ĐỈNH NHẤT SÀI GÒN - Lần Đầu Đi Cầu Kính Tại Tầng 81</span>
+
+                <div class="info__action d-flex justify-content-between mt-2">
+                    <div class="action__view">10.267 lượt xem - 26 thg 2, 2022</div>
+                    <div class="d-flex">
+                        <div class="action__like mx-4"><i class="fa-solid fa-thumbs-up mr-2"></i> 420</div>
+                        <div class="action__dislike mx-4"><i class="fa-solid fa-thumbs-down mr-2"></i> Dislike</div>
+                        <div class="action__share mx-4"><i class="fa-solid fa-share mr-2"></i> Share</div>
+                        <div class="action__more mx-4"><i class="fa-solid fa-ellipsis mr-2"></i></div>
+                    </div>
+                </div>
+
+                <div class="info__channel d-flex justify-content-between mt-4">
+                    <div class="d-flex">
+                        <img class="channel__img" src="https://yt3.ggpht.com/nwyG0ql8sxARogaFb3sgpjoNd86v7hL9W2eeEysP2LryigBtYtX-J2Mw9H1lpcB9D4sw0aCx9w=s176-c-k-c0x00ffffff-no-rj" alt="" />
+                        <div class="channel__name">EGATOR</div>
+                    </div>
+                    <button class="info__subscription">SUBSCRIPTION</button>
+                </div>
+            </div>
+            <div class="content__suggest col-4 mt-4">
+                <div class="row">
+                    <a href="#" class="col-12 nav-link p-0 mt-2">
+                        <div class="row">
+                            <div class="col-5 d-flex justify-content-end pr-0">
+                                <img class="suggest__thumbnail" src="https://i.ytimg.com/vi/fOKgHld96mU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBkQT6sxwmWsEg6O_IsTkFfZVY9iQ" alt="" />
+                            </div>
+                            <div class="col-7">
+                                <div class="suggest__content">Youtube API - How to make youtube Clone | Fully working youtube clone with HTML, CSS, JS</div>
+                                <div class="suggest__channle-name suggest__channle-name--active">
+                                    Modern Web
+                                    <i class="fa-solid fa-circle-check ml-1"></i>
+                                </div>
+                                <div class="suggest__view">650N views - 6 days ago</div>
+                                <div class="suggest__status suggest__status--new">New</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="col-12 nav-link p-0 mt-2">
+                        <div class="row">
+                            <div class="col-5 d-flex justify-content-end pr-0">
+                                <img class="suggest__thumbnail" src="https://i.ytimg.com/vi/fOKgHld96mU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBkQT6sxwmWsEg6O_IsTkFfZVY9iQ" alt="" />
+                            </div>
+                            <div class="col-7">
+                                <div class="suggest__content">Youtube API - How to make youtube Clone | Fully working youtube clone with HTML, CSS, JS</div>
+                                <div class="suggest__channle-name suggest__channle-name--active">
+                                    Modern Web
+                                    <i class="fa-solid fa-circle-check ml-1"></i>
+                                </div>
+                                <div class="suggest__view">650N views - 6 days ago</div>
+                                <div class="suggest__status suggest__status--new">New</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="col-12 nav-link p-0 mt-2">
+                        <div class="row">
+                            <div class="col-5 d-flex justify-content-end pr-0">
+                                <img class="suggest__thumbnail" src="https://i.ytimg.com/vi/fOKgHld96mU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBkQT6sxwmWsEg6O_IsTkFfZVY9iQ" alt="" />
+                            </div>
+                            <div class="col-7">
+                                <div class="suggest__content">Youtube API - How to make youtube Clone | Fully working youtube clone with HTML, CSS, JS</div>
+                                <div class="suggest__channle-name suggest__channle-name--active">
+                                    Modern Web
+                                    <i class="fa-solid fa-circle-check ml-1"></i>
+                                </div>
+                                <div class="suggest__view">650N views - 6 days ago</div>
+                                <div class="suggest__status suggest__status--new">New</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        $(document).ready(function () {
+            let detailVideoElement = $(".detail-video");
+            let videContentElement = $(".video-content");
+            let videoData = JSON.parse(localStorage.getItem("videoData"));
+
+            detailVideoElement.html(`<iframe width="100%" height="100%" src="https://www.youtube.com/embed/${videoData.videoId}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`);
+
+            videContentElement.html(`
+                <div class="content__info col-8 pl-5 mt-4">
+                    <span>${videoData.contentInfo}</span>
+
+                    <div class="info__action d-flex justify-content-between mt-2">
+                        <div class="action__view">10.267 lượt xem - 26 thg 2, 2022</div>
+                        <div class="d-flex">
+                            <div class="action__like mx-4"><i class="fa-solid fa-thumbs-up mr-2"></i> 420</div>
+                            <div class="action__dislike mx-4"><i class="fa-solid fa-thumbs-down mr-2"></i> Dislike</div>
+                            <div class="action__share mx-4"><i class="fa-solid fa-share mr-2"></i> Share</div>
+                            <div class="action__more mx-4"><i class="fa-solid fa-ellipsis mr-2"></i></div>
+                        </div>
+                    </div>
+
+                    <div class="info__channel d-flex justify-content-between mt-4">
+                        <div class="d-flex">
+                            <img class="channel__img" src="${videoData.channelIcon}" alt="" />
+                            <div class="channel__name">${videoData.channelName}</div>
+                        </div>
+                        <button class="info__subscription">SUBSCRIPTION</button>
+                    </div>
+                </div>
+                <div class="content__suggest col-4 mt-4">
+                    <div class="row">
+                        <a href="#" class="col-12 nav-link p-0 mt-2">
+                            <div class="row">
+                                <div class="col-5 d-flex justify-content-end pr-0">
+                                    <img class="suggest__thumbnail" src="https://i.ytimg.com/vi/fOKgHld96mU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBkQT6sxwmWsEg6O_IsTkFfZVY9iQ" alt="" />
+                                </div>
+                                <div class="col-7">
+                                    <div class="suggest__content">Youtube API - How to make youtube Clone | Fully working youtube clone with HTML, CSS, JS</div>
+                                    <div class="suggest__channle-name suggest__channle-name--active">
+                                        Modern Web
+                                        <i class="fa-solid fa-circle-check ml-1"></i>
+                                    </div>
+                                    <div class="suggest__view">650N views - 6 days ago</div>
+                                    <div class="suggest__status suggest__status--new">New</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="col-12 nav-link p-0 mt-2">
+                            <div class="row">
+                                <div class="col-5 d-flex justify-content-end pr-0">
+                                    <img class="suggest__thumbnail" src="https://i.ytimg.com/vi/fOKgHld96mU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBkQT6sxwmWsEg6O_IsTkFfZVY9iQ" alt="" />
+                                </div>
+                                <div class="col-7">
+                                    <div class="suggest__content">Youtube API - How to make youtube Clone | Fully working youtube clone with HTML, CSS, JS</div>
+                                    <div class="suggest__channle-name suggest__channle-name--active">
+                                        Modern Web
+                                        <i class="fa-solid fa-circle-check ml-1"></i>
+                                    </div>
+                                    <div class="suggest__view">650N views - 6 days ago</div>
+                                    <div class="suggest__status suggest__status--new">New</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="col-12 nav-link p-0 mt-2">
+                            <div class="row">
+                                <div class="col-5 d-flex justify-content-end pr-0">
+                                    <img class="suggest__thumbnail" src="https://i.ytimg.com/vi/fOKgHld96mU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBkQT6sxwmWsEg6O_IsTkFfZVY9iQ" alt="" />
+                                </div>
+                                <div class="col-7">
+                                    <div class="suggest__content">Youtube API - How to make youtube Clone | Fully working youtube clone with HTML, CSS, JS</div>
+                                    <div class="suggest__channle-name suggest__channle-name--active">
+                                        Modern Web
+                                        <i class="fa-solid fa-circle-check ml-1"></i>
+                                    </div>
+                                    <div class="suggest__view">650N views - 6 days ago</div>
+                                    <div class="suggest__status suggest__status--new">New</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            `);
+        });
+    </script>
+</html>

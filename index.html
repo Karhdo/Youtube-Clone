@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Youtube</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./js/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" />
+        <link rel="stylesheet" href="./css/base.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="navbar__start d-flex justify-content-center">
+                <div class="start__toggle-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="start__logo">
+                    <a href="#"><img class="ml-4" src="./img/logo.png" alt="Logo" /> </a>
+                </div>
+            </div>
+
+            <div class="navbar__center d-flex justify-content-center">
+                <input class="center__search-input" type="text" placeholder="Search" />
+
+                <button class="center__search-btn">
+                    <i class="fa-solid fa-search"></i>
+                </button>
+
+                <button class="center__micro-btn">
+                    <i class="fa-solid fa-microphone"></i>
+                </button>
+            </div>
+
+            <div class="navbar__end d-flex justify-content-center">
+                <div class="end__user-option">
+                    <i class="fa-solid fa-table-cells"></i>
+                </div>
+                <div class="end__user-option mr-3">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+                <a class="end__user-login nav-link" href="#">
+                    <i class="fa-solid fa-user"></i>
+                    SIGN IN
+                </a>
+            </div>
+        </div>
+
+        <div class="side-bar">
+            <a href="#" class="side-bar__item side-bar__item--active nav-link d-flex">
+                <div class="item__icon"><i class="fa-solid fa-house mr-4"></i></div>
+                <div class="item__content">Home</div>
+            </a>
+            <a href="#" class="side-bar__item nav-link d-flex">
+                <div class="item__icon"><i class="fa-solid fa-compass mr-4"></i></div>
+                <div class="item__content">Explore</div>
+            </a>
+            <a href="#" class="side-bar__item nav-link d-flex">
+                <div class="item__icon"><i class="fa-solid fa-video mr-4"></i></div>
+                <div class="item__content">Shorts</div>
+            </a>
+            <a href="#" class="side-bar__item nav-link d-flex">
+                <div class="item__icon"><i class="fa-solid fa-circle-play mr-4"></i></div>
+                <div class="item__content">Subscription</div>
+            </a>
+
+            <div class="separator"></div>
+
+            <a href="#" class="side-bar__item nav-link d-flex">
+                <div class="item__icon"><i class="fa-solid fa-play mr-4"></i></div>
+                <div class="item__content">Library</div>
+            </a>
+            <a href="#" class="side-bar__item nav-link d-flex">
+                <div class="item__icon"><i class="fa-solid fa-clock-rotate-left mr-4"></i></div>
+                <div class="item__content">History</div>
+            </a>
+
+            <div class="side-bar__login nav-link">
+                <div class="separator"></div>
+                <span class="d-block"> Sign in to like video, comment and subscribe. </span>
+                <a class="end__user-login nav-link" href="#">
+                    <i class="fa-solid fa-user"></i>
+                    SIGN IN
+                </a>
+            </div>
+
+            <div class="separator"></div>
+
+            <div class="side-bar__best">
+                <span>BEST OF YOUTUBE</span>
+                <a href="#" class="side-bar__item nav-link d-flex">
+                    <div class="item__icon"><i class="fa-solid fa-music mr-4"></i></div>
+                    <div class="item__content">Music</div>
+                </a>
+                <a href="#" class="side-bar__item nav-link d-flex">
+                    <div class="item__icon"><i class="fa-solid fa-trophy mr-4"></i></div>
+                    <div class="item__content">Sports</div>
+                </a>
+                <a href="#" class="side-bar__item nav-link d-flex">
+                    <div class="item__icon"><i class="fa-solid fa-newspaper mr-4"></i></div>
+                    <div class="item__content">Newspaper</div>
+                </a>
+                <a href="#" class="side-bar__item nav-link d-flex">
+                    <div class="item__icon"><i class="fa-solid fa-gamepad mr-4"></i></div>
+                    <div class="item__content">Gaming</div>
+                </a>
+                <a href="#" class="side-bar__item nav-link d-flex">
+                    <div class="item__icon"><i class="fa-solid fa-file-video mr-4"></i></div>
+                    <div class="item__content">360&deg; Video</div>
+                </a>
+
+                <div class="separator"></div>
+                <a href="#" class="side-bar__item nav-link d-flex">
+                    <div class="item__icon"><i class="fa-solid fa-circle-plus mr-4"></i></div>
+                    <div class="item__content">Browse channels</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="filters">
+            <div class="owl-carousel owl-theme">
+                <button class="filters__option filters__option--active">All</button>
+                <button class="filters__option">Javascript</button>
+                <button class="filters__option">Php</button>
+                <button class="filters__option">Type</button>
+                <button class="filters__option">Music</button>
+                <button class="filters__option">Game</button>
+                <button class="filters__option">All</button>
+                <button class="filters__option">Javascript</button>
+                <button class="filters__option">Php</button>
+                <button class="filters__option">Type</button>
+                <button class="filters__option">Music</button>
+                <button class="filters__option">Game</button>
+                <button class="filters__option">All</button>
+                <button class="filters__option">Javascript</button>
+                <button class="filters__option">Php</button>
+                <button class="filters__option">Type</button>
+                <button class="filters__option">Music</button>
+                <button class="filters__option">Game</button>
+            </div>
+        </div>
+
+        <div class="container-video">
+            <div class="container__list-videos row d-flex flex-wrap">
+                <!-- <a href="#" class="col-3 nav-link video">
+                    <div class="video__thumbnail">
+                        <img class="thumbnail__img" src="https://i.ytimg.com/vi/Cg9LdF_spvA/maxresdefault.jpg" alt="thumbnail" />
+                        <div class="thumbnail__duration-video">11:09</div>
+
+                        <div class="video-zoom">
+                            <div class="video__thumbnail">
+                                <img class="thumbnail__img" src="https://i.ytimg.com/vi/Cg9LdF_spvA/maxresdefault.jpg" alt="thumbnail" />
+                                <div class="thumbnail__duration-video">11:09</div>
+                            </div>
+                            <div class="video__content">
+                                <img class="content__channel-icon" src="https://yt3.ggpht.com/F9TX53zQ9OXYrim6nw60puD5GqmpLtZ9A5l7bwpWjw6TM1Bos8f-NxJqd2sw9d9mrTR0tTXX=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                                <div class="content__info">
+                                    <span>Cực Nóng: Video Quân Đội Ukraine Bắn Hạ Máy Bay Nga?</span>
+                                    <p class="info__channel-name">Modern Web</p>
+                                </div>
+                            </div>
+                            <div class="video__views">2.2M views - 1 day ago</div>
+                            <div class="video-zoom__watch-later">
+                                <i class="fa-solid fa-clock mr-1"></i>
+                                WATCH LATER
+                            </div>
+                            <div class="video-zoom__add-queue my-2">
+                                <i class="fa-solid fa-list mr-1"></i>
+                                ADD TO QUEUE
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video__content">
+                        <img class="content__channel-icon" src="https://yt3.ggpht.com/F9TX53zQ9OXYrim6nw60puD5GqmpLtZ9A5l7bwpWjw6TM1Bos8f-NxJqd2sw9d9mrTR0tTXX=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                        <div class="content__info">
+                            <span>Cực Nóng: Video Quân Đội Ukraine Bắn Hạ Máy Bay Nga?</span>
+                            <p class="info__channel-name">Modern Web</p>
+                        </div>
+                    </div>
+                    <div class="video__views">2.2M views - 1 day ago</div>
+                </a> -->
+            </div>
+        </div>
+    </body>
+    <script src="./js/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
+</html>
