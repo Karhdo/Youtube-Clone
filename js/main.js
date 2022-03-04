@@ -60,7 +60,7 @@ const makeVideoCard = (data) => {
                         </div>
                     </div>
                     <div class="video__views">2.2M views - 1 day ago</div>
-                    <div class="video-zoom__watch-later">
+                    <div class="video-zoom__watch-later mt-2">
                         <i class="fa-solid fa-clock mr-1"></i>
                         WATCH LATER
                     </div>
